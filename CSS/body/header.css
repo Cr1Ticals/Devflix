@@ -1,0 +1,44 @@
+@import "variables.css";
+@import "global.css";
+
+
+.header_container {
+    display: flex;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-image: var(--body-color);
+    transition: .3s;
+    margin-bottom: var(--margin-3);
+    height: 95px;
+}
+
+.header_container:hover {
+    background-image: var(--container-color);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.icon_logo {
+    font-size: 60px;
+    color: var(--fonte);
+}
+.name_logo {
+    font-size: 2rem;
+    color: var(--fonte);
+    padding-left: 3.3rem;
+    display: flex;
+    align-items: end;
+}
+.nav_items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    align-items: center;
+    color: var(--fonte);
+    font-size: var(--nav-font);
+    cursor: pointer;
+}
+
+
+
