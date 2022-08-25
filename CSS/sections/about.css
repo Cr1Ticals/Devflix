@@ -1,5 +1,6 @@
 
 .about {
+    display: flex;
     justify-content: center; 
 }
 
@@ -26,6 +27,7 @@
 .about_title h1 {
     font-size: 40px;
     text-align: left;
+    letter-spacing: 1px;
     
 }
 
@@ -36,7 +38,7 @@
     justify-self: center;
     align-self: center;
     border-radius: 10px;
-    opacity: 0.3;
+    
 }
 
 .about_content{
@@ -44,6 +46,7 @@
     flex-direction: column;
     justify-content:center;
     color: var(--fonte);
+    letter-spacing: 1px;
 }
 
 .about_subititle{
@@ -54,8 +57,8 @@
 
 .about_description {
     font-size: 18px;
-    opacity: 0.7;
     text-align: right;
+    line-height: 25px;
 }
 
 

@@ -17,41 +17,37 @@
 
   <body>
     <header class="header_container">
-      
-        <nav class="navbar">
+      <nav class="navbar">
+        <a href="/" class="name_logo">
+          <i class="bx bxl-dev-to icon_logo"></i>
+          flix
+        </a>
 
-            <a href="/" class="name_logo">
-              <i class="bx bxl-dev-to icon_logo"></i>
-              flix
-            </a>
-        
-            <ul class="nav_list">
-              <li class="nav_item">
-                <a href=" " class="nav_link">Videos</a>
-              </li>
-              <li class="nav_item">
-                <a href="" class="nav_link">Playlists</a>
-              </li>
-              <li class="nav_item">
-                <a href="" class="nav_link">About</a>
-              </li>
-              <li class="nav_item">
-                <a href="" class="nav_link">Account</a>
-              </li>
-            </ul>
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href=" " class="nav_link">Videos</a>
+          </li>
+          <li class="nav_item">
+            <a href="" class="nav_link">Playlists</a>
+          </li>
+          <li class="nav_item">
+            <a href="" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="" class="nav_link">Account</a>
+          </li>
+        </ul>
 
-            <div class="nav_menu">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-            </div>
-          
-        </nav>
-      
+        <div class="nav_menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
     </header>
+
     <main class="main">
       <section class="about container" id="about">
-        
         <div class="about_container">
           <div class="about_title">
             <h1>< Came to find</h1>
@@ -63,49 +59,87 @@
           <div class="about_division"></div>
 
           <div class="about_content">
-            <h2 class="about_subititle">
-              { Best programing Knowledge }
-            </h2>
+            <h2 class="about_subititle">{ Best programing Knowledge }</h2>
             <p class="about_description">
-              Enjoy while you live as a programmer on the planet, because the 
-              technology advances <br/> in a way gradually transforming us into a dumb 
-              being. Do it like a programmer.<br/> When everything is wrong and confused
-              delete everything and start over from scratch. <br/> A language does not make you code is good, good programmers make their code good.
+              Enjoy while you live as a programmer on the planet, because the
+              technology advances <br />
+              in a way gradually transforming us into a dumb being. Do it like a
+              programmer.<br />
+              When everything is wrong and confused delete everything and start
+              over from scratch. <br />
+              A language does not make you code is good, good programmers make
+              their code good.
             </p>
           </div>
         </div>
-      
       </section>
 
       <section class="videos container" id="videos">
-       <h1 class="section_title">Videos</h1>
-        
-        <section class="videos_container">
+        <h1 class="section_title">Videos</h1>
 
-            <div class="videos_principal">
-                <img src="https://img.youtube.com/vi/a2ni_JNvJYQ/maxresdefault.jpg" alt="">  
-            </div>
-  
+        <section class="videos_section">
+          <div class="videos_principal" id="a2ni_JNvJYQ">
+            <img
+              src="https://img.youtube.com/vi/a2ni_JNvJYQ/maxresdefault.jpg"
+              alt=""
+            />
+            <p>
+              3 coisas que você precisa dominar no Javascript pra se dar bem no
+              React
+            </p>
+          </div>
+
+          <div class="videos_container">
             <div class="videos_list">
-              <h2 class="videos_title">
-                VIDEOS
-                <i class='bx bxs-video-plus video_icon'></i>
-              <h2>
               <ul class="videos_ul">
-                <li class="videos_item"></li>
+                <li class="videos_item" id="37SwqREHRGI">
+                  <img
+                    src="https://img.youtube.com/vi/37SwqREHRGI/mqdefault.jpg"
+                    alt=""
+                  />
+                  <p>TUDO que você deve estudar de JavaScript antes do React</p>
+                </li>
+
+                <li class="videos_item" id="lRWf4WjfsVI">
+                  <img
+                    src="https://img.youtube.com/vi/lRWf4WjfsVI/mqdefault.jpg"
+                    alt=""
+                  />
+                  <p>Duas regras que você precisa cumprir com hooks no React</p>
+                </li>
+
+                <li class="videos_item" id="kCpca2z2cls">
+                  <img
+                    src="https://img.youtube.com/vi/kCpca2z2cls/mqdefault.jpg"
+                    alt=""
+                  />
+                  <p>O ERRO mais comum no React (você já fez isso)</p>
+                </li>
               </ul>
             </div>
+          </div>
 
+          <div class="modal_overlay">
+            <div class="modal_content">
+              <a href="" class="close_content">
+                <i class="bx bx-x icon_close"></i>
+              </a>
+
+              <div class="video_content">
+                <iframe src="" frameborder="0"></iframe>
+              </div>
+            </div>
+          </div>
         </section>
-        
-
       </section>
 
       <section class="container" id="playlists"></section>
     </main>
+
     <footer></footer>
   </body>
 </html>
 
 <!-- Scripts -->
 <script src="assets/js/nav-menu.js"></script>
+<script src="assets/js/modal-overlay.js"></script>
