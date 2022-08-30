@@ -10,6 +10,9 @@
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
+
     <!-------- Styles ----------->
     <link rel="stylesheet" href="CSS/global.css" />
     <link rel="stylesheet" href="CSS/styles.css" />
@@ -48,98 +51,114 @@
 
     <main class="main">
       <section class="about container" id="about">
-        <div class="about_container">
-          <div class="about_title">
-            <h1>< Came to find</h1>
-            <h1>the best</h1>
-            <h1>content of tecnology /></h1>
-            <img src="assets/img/about_img.svg" alt="" class="about_img" />
-          </div>
+        <div class="about_swiper">
+          <div class="about_container">
+            <div class="about_content_principal">
+              <div class="about_title">
+                <h1>< Came to <strong>FIND</strong></h1>
+                <h1>the <strong>BEST</strong></h1>
+                <h1>content of <strong>TECNOLOGY</strong> /></h1>
+                <img src="assets/img/about_img.svg" alt="" class="about_img" />
+              </div>
 
-          <div class="about_division"></div>
+              <div class="about_division"></div>
 
-          <div class="about_content">
-            <h2 class="about_subititle">{ Best programing Knowledge }</h2>
-            <p class="about_description">
-              Enjoy while you live as a programmer on the planet, because the
-              technology advances <br />
-              in a way gradually transforming us into a dumb being. Do it like a
-              programmer.<br />
-              When everything is wrong and confused delete everything and start
-              over from scratch. <br />
-              A language does not make you code is good, good programmers make
-              their code good.
-            </p>
+              <div class="about_content">
+                <h2 class="about_subititle"><strong>{</strong> bestProgramingKnowledge <strong>}</strong></h2>
+                <p class="about_description">
+                  Enjoy while you live as a programmer on the planet, because
+                  the technology advances <br />
+                  in a way gradually transforming us into a dumb being. Do it
+                  like a programmer.<br />
+                  When everything is wrong and confused delete everything and
+                  start over from scratch. <br />
+                  A language does not make you code is good, good programmers
+                  make their code good.
+                </p>
+              </div>
+            </div>
+   
           </div>
         </div>
       </section>
 
+      <section class="section_title">Videos</section>
+
       <section class="videos container" id="videos">
-        <h1 class="section_title">Videos</h1>
 
-        <section class="videos_section">
-          <div class="videos_principal" id="a2ni_JNvJYQ">
-            <img
-              src="https://img.youtube.com/vi/a2ni_JNvJYQ/maxresdefault.jpg"
-              alt=""
-            />
-            <p>
-              3 coisas que você precisa dominar no Javascript pra se dar bem no
-              React
-            </p>
-          </div>
-
-          <div class="videos_container">
-            <div class="videos_list">
-              <ul class="videos_ul">
-                <li class="videos_item" id="37SwqREHRGI">
-                  <img
-                    src="https://img.youtube.com/vi/37SwqREHRGI/mqdefault.jpg"
-                    alt=""
-                  />
-                  <p>TUDO que você deve estudar de JavaScript antes do React</p>
-                </li>
-
-                <li class="videos_item" id="lRWf4WjfsVI">
-                  <img
-                    src="https://img.youtube.com/vi/lRWf4WjfsVI/mqdefault.jpg"
-                    alt=""
-                  />
-                  <p>Duas regras que você precisa cumprir com hooks no React</p>
-                </li>
-
-                <li class="videos_item" id="kCpca2z2cls">
-                  <img
-                    src="https://img.youtube.com/vi/kCpca2z2cls/mqdefault.jpg"
-                    alt=""
-                  />
-                  <p>O ERRO mais comum no React (você já fez isso)</p>
-                </li>
-              </ul>
+          <section class="videos_section">
+          
+            <div class="videos_principal " id="a2ni_JNvJYQ">
+              <img class="border"
+                src="https://img.youtube.com/vi/a2ni_JNvJYQ/maxresdefault.jpg"
+                alt=""
+              />
+              <p>
+                3 coisas que você precisa dominar no Javascript pra se dar bem no
+                React
+              </p>
             </div>
-          </div>
-
-          <div class="modal_overlay">
-            <div class="modal_content">
-              <a href="" class="close_content">
-                <i class="bx bx-x icon_close"></i>
-              </a>
-
-              <div class="video_content">
-                <iframe src="" frameborder="0"></iframe>
+  
+            <div class="videos_container">
+              <div class="videos_list">
+                <ul class="videos_ul">
+                  <li class="videos_item" id="37SwqREHRGI">
+                    <img class="border"
+                      src="https://img.youtube.com/vi/37SwqREHRGI/mqdefault.jpg"
+                      alt=""
+                    />
+                    <p>TUDO que você deve estudar de JavaScript antes do React</p>
+                  </li>
+  
+                  <li class="videos_item" id="lRWf4WjfsVI">
+                    <img class="border"
+                      src="https://img.youtube.com/vi/lRWf4WjfsVI/mqdefault.jpg"
+                      alt=""
+                    />
+                    <p>Duas regras que você precisa cumprir com hooks no React</p>
+                  </li>
+  
+                  <li class="videos_item" id="kCpca2z2cls">
+                    <img class="border"
+                      src="https://img.youtube.com/vi/kCpca2z2cls/mqdefault.jpg"
+                      alt=""
+                    />
+                    <p>O ERRO mais comum no React (você já fez isso)</p>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </section>
+  
+            <div class="modal_overlay">
+              <div class="modal_content">
+                <a href="" class="close_content">
+                  <i class="bx bx-x icon_close"></i>
+                </a>
+  
+                <div class="video_content">
+                  <iframe src="" frameborder="0"></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+        
       </section>
 
-      <section class="container" id="playlists"></section>
+      <section class="section_title">Playlists</section>
+
+      <section class="play container" id="playlists">
+
+      </section>
     </main>
 
     <footer></footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/nav-menu.js"></script>
+    <script src="assets/js/modal-overlay.js"></script>
+    <script src="assets/js/about-slider.js"></script>
+    <script src="assets/js/swiper-bundle.min.js.map"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
   </body>
 </html>
-
-<!-- Scripts -->
-<script src="assets/js/nav-menu.js"></script>
-<script src="assets/js/modal-overlay.js"></script>

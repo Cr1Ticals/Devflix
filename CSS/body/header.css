@@ -9,14 +9,14 @@
     right:0;
 }
 .name_logo {
-    font-size: 35px;
+    font-size: 30px;
     display: flex;
     align-items: end;
     padding: 2px;
 }
 
 .icon_logo {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .navbar{
@@ -34,7 +34,6 @@
 }
 
 .nav_item {
-    letter-spacing: 3px;
     margin-left: 35px;
     font-size: 20px;
 }

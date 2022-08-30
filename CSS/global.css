@@ -29,6 +29,9 @@ body {
     background-image: linear-gradient(to bottom, #7C9FC2, #1B365C) ;
 }
 
+section{
+    margin: 10vh auto;
+}
 .main {
     margin-top: 160px;
 }
