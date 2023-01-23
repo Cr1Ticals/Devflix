@@ -10,6 +10,9 @@
     scroll-behavior: smooth;
 }
 
+:root {
+    --linear-gradient: linear-gradient(to right, #49BCF6 , #49DEB2);
+}
 .container {
     width: 100%;
     padding-left: var(--margin-3);
